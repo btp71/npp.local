@@ -15,5 +15,4 @@ function Photo_insert($data) {
         (' " . $data['title'] . " ', ' " . $data['image'] . " ')
     ";
     Sql_exec($sql);
-
 }
